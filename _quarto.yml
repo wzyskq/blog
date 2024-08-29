@@ -1,0 +1,60 @@
+project:
+  type: website
+  # post-render: posts
+  preview:
+    host: 192.168.3.50
+    port: 5500
+
+website:
+  title: "Sanlimi's Blog"
+  favicon: posts/assets/music.svg
+
+  search: 
+    show-item-context: true
+    type: overlay
+
+  page-footer: 
+    center: 
+      - text: "© 2022 - 2024"
+      - text: "Sanlimi"
+        href: about.qmd
+    right: 
+      - text: "power by ❤️"
+      - text: "Quarto"
+        href: https://quarto.org
+  
+  navbar:
+    # logo: posts/assets/music.svg
+    # title: false
+    collapse-below: lg
+
+    left: 
+      - text: "小窝"
+        href: https://wzyskq.github.io
+      - text: "归档"
+        href: index.qmd
+      - text: "关于"
+        href: about.qmd
+
+    tools:
+      - icon: github
+        href: https://github.com/wzyskq
+        text: My Github
+
+      
+format:
+  html:
+    toc: true
+    toc-title: 目录
+    toc-location: right-body
+    toc-depth: 6
+    theme: 
+      light: minty
+      dark: darkly
+    code-copy: true
+    code-overflow: wrap
+    css: styles.css
+
+freeze: true
+
+

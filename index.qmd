@@ -1,0 +1,15 @@
+---
+title: "Archive"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  date-format: YYYY / M / D ddd H:mm
+  image-lazy-loading: true
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+

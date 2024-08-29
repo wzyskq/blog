@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sanlimi">
+<meta name="dcterms.date" content="2024-05-02">
+<meta name="description" content="自然类专题">
+
+<title>自然角度问题 – Sanlimi’s Blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../posts/assets/music.svg" rel="icon" type="image/svg+xml">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": true,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../../index.html">
+    <span class="navbar-title">Sanlimi’s Blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://wzyskq.github.io"> 
+<span class="menu-text">小窝</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../index.html"> 
+<span class="menu-text">归档</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../about.html"> 
+<span class="menu-text">关于</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/wzyskq" title="My Github" class="quarto-navigation-tool px-1" aria-label="My Github"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">自然角度问题</h1>
+            <p class="subtitle lead">地理整合系列</p>
+                  <div>
+        <div class="description">
+          自然类专题
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">高中</div>
+                <div class="quarto-category">地理</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Sanlimi </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 2, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#地" id="toc-地" class="nav-link active" data-scroll-target="#地">地</a>
+  <ul>
+  <li><a href="#h.-地形描述" id="toc-h.-地形描述" class="nav-link" data-scroll-target="#h.-地形描述">H. 地形描述</a></li>
+  <li><a href="#h.-景观特征" id="toc-h.-景观特征" class="nav-link" data-scroll-target="#h.-景观特征">H. 景观特征</a></li>
+  <li><a href="#i.-地形---气候环境" id="toc-i.-地形---气候环境" class="nav-link" data-scroll-target="#i.-地形---气候环境">I.&nbsp;地形 - 气候环境</a></li>
+  <li><a href="#i.-地形---降水" id="toc-i.-地形---降水" class="nav-link" data-scroll-target="#i.-地形---降水">I.&nbsp;地形 - 降水</a></li>
+  <li><a href="#i.-地形---河流" id="toc-i.-地形---河流" class="nav-link" data-scroll-target="#i.-地形---河流">I.&nbsp;地形 - 河流</a></li>
+  <li><a href="#i.-地形---农业" id="toc-i.-地形---农业" class="nav-link" data-scroll-target="#i.-地形---农业">I.&nbsp;地形 - 农业</a></li>
+  <li><a href="#f.-河谷" id="toc-f.-河谷" class="nav-link" data-scroll-target="#f.-河谷">F. 河谷</a></li>
+  <li><a href="#f.-冲击扇" id="toc-f.-冲击扇" class="nav-link" data-scroll-target="#f.-冲击扇">F. 冲击扇</a></li>
+  <li><a href="#q.-海岸类型" id="toc-q.-海岸类型" class="nav-link" data-scroll-target="#q.-海岸类型">Q. 海岸类型</a></li>
+  <li><a href="#r.-海岸线曲折" id="toc-r.-海岸线曲折" class="nav-link" data-scroll-target="#r.-海岸线曲折">R. 海岸线曲折</a></li>
+  <li><a href="#c.-河口三角洲" id="toc-c.-河口三角洲" class="nav-link" data-scroll-target="#c.-河口三角洲">C. 河口三角洲</a></li>
+  <li><a href="#q.-岛屿种类" id="toc-q.-岛屿种类" class="nav-link" data-scroll-target="#q.-岛屿种类">Q. 岛屿种类</a></li>
+  <li><a href="#c.-河谷描述" id="toc-c.-河谷描述" class="nav-link" data-scroll-target="#c.-河谷描述">C. 河谷描述</a></li>
+  <li><a href="#c.-土壤发育" id="toc-c.-土壤发育" class="nav-link" data-scroll-target="#c.-土壤发育">C. 土壤发育</a></li>
+  <li><a href="#c.-土壤有机质" id="toc-c.-土壤有机质" class="nav-link" data-scroll-target="#c.-土壤有机质">C. 土壤有机质</a></li>
+  <li><a href="#i.-土壤---农业" id="toc-i.-土壤---农业" class="nav-link" data-scroll-target="#i.-土壤---农业">I. 土壤 - 农业</a></li>
+  <li><a href="#c.-风化作用" id="toc-c.-风化作用" class="nav-link" data-scroll-target="#c.-风化作用">C. 风化作用</a></li>
+  </ul></li>
+  <li><a href="#水" id="toc-水" class="nav-link" data-scroll-target="#水">水</a>
+  <ul>
+  <li><a href="#c.-降水" id="toc-c.-降水" class="nav-link" data-scroll-target="#c.-降水">C. 降水</a></li>
+  <li><a href="#f.-水文" id="toc-f.-水文" class="nav-link" data-scroll-target="#f.-水文">F. 水文</a></li>
+  <li><a href="#f.-水系" id="toc-f.-水系" class="nav-link" data-scroll-target="#f.-水系">F. 水系</a></li>
+  <li><a href="#f.-湖泊水文" id="toc-f.-湖泊水文" class="nav-link" data-scroll-target="#f.-湖泊水文">F. 湖泊水文</a></li>
+  <li><a href="#q.-湖泊类型" id="toc-q.-湖泊类型" class="nav-link" data-scroll-target="#q.-湖泊类型">Q. 湖泊类型</a></li>
+  <li><a href="#c.-潮汐" id="toc-c.-潮汐" class="nav-link" data-scroll-target="#c.-潮汐">C. 潮汐</a></li>
+  <li><a href="#c.-结冰" id="toc-c.-结冰" class="nav-link" data-scroll-target="#c.-结冰">C. 结冰</a></li>
+  <li><a href="#c.-盐度" id="toc-c.-盐度" class="nav-link" data-scroll-target="#c.-盐度">C. 盐度</a></li>
+  <li><a href="#r.-湿地减少" id="toc-r.-湿地减少" class="nav-link" data-scroll-target="#r.-湿地减少">R. 湿地减少</a></li>
+  <li><a href="#r.-咸潮冬季" id="toc-r.-咸潮冬季" class="nav-link" data-scroll-target="#r.-咸潮冬季">R. 咸潮（冬季）</a></li>
+  <li><a href="#c.-含沙量" id="toc-c.-含沙量" class="nav-link" data-scroll-target="#c.-含沙量">C. 含沙量</a></li>
+  </ul></li>
+  <li><a href="#气" id="toc-气" class="nav-link" data-scroll-target="#气">气</a>
+  <ul>
+  <li><a href="#c.-气候" id="toc-c.-气候" class="nav-link" data-scroll-target="#c.-气候">C. 气候</a></li>
+  <li><a href="#f.-气候" id="toc-f.-气候" class="nav-link" data-scroll-target="#f.-气候">F. 气候</a></li>
+  <li><a href="#q.-热量" id="toc-q.-热量" class="nav-link" data-scroll-target="#q.-热量">Q. 热量</a></li>
+  <li><a href="#c.-太阳辐射" id="toc-c.-太阳辐射" class="nav-link" data-scroll-target="#c.-太阳辐射">C. 太阳辐射</a></li>
+  <li><a href="#c.-蒸发" id="toc-c.-蒸发" class="nav-link" data-scroll-target="#c.-蒸发">C. 蒸发</a></li>
+  <li><a href="#c.-风大" id="toc-c.-风大" class="nav-link" data-scroll-target="#c.-风大">C. 风大</a></li>
+  <li><a href="#f.-焚风效应" id="toc-f.-焚风效应" class="nav-link" data-scroll-target="#f.-焚风效应">F. 焚风效应</a></li>
+  <li><a href="#q.-雨的种类" id="toc-q.-雨的种类" class="nav-link" data-scroll-target="#q.-雨的种类">Q. 雨的种类</a></li>
+  <li><a href="#q.-雾的种类" id="toc-q.-雾的种类" class="nav-link" data-scroll-target="#q.-雾的种类">Q. 雾的种类</a></li>
+  <li><a href="#c.-雾" id="toc-c.-雾" class="nav-link" data-scroll-target="#c.-雾">C. 雾</a></li>
+  <li><a href="#c.-霾" id="toc-c.-霾" class="nav-link" data-scroll-target="#c.-霾">C. 霾</a>
+  <ul>
+  <li><a href="#r.-冬季多" id="toc-r.-冬季多" class="nav-link" data-scroll-target="#r.-冬季多">R. 冬季多</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#生物" id="toc-生物" class="nav-link" data-scroll-target="#生物">生物</a>
+  <ul>
+  <li><a href="#c.-生物生存" id="toc-c.-生物生存" class="nav-link" data-scroll-target="#c.-生物生存">C. 生物生存</a></li>
+  <li><a href="#c.-生物多样性好" id="toc-c.-生物多样性好" class="nav-link" data-scroll-target="#c.-生物多样性好">C. 生物多样性好</a></li>
+  <li><a href="#c.-生态脆弱" id="toc-c.-生态脆弱" class="nav-link" data-scroll-target="#c.-生态脆弱">C. 生态脆弱</a></li>
+  <li><a href="#c.-农作物品质好" id="toc-c.-农作物品质好" class="nav-link" data-scroll-target="#c.-农作物品质好">C. 农作物品质好</a></li>
+  <li><a href="#q.-不同地区森林作用" id="toc-q.-不同地区森林作用" class="nav-link" data-scroll-target="#q.-不同地区森林作用">Q. 不同地区森林作用</a></li>
+  </ul></li>
+  <li><a href="#灾害" id="toc-灾害" class="nav-link" data-scroll-target="#灾害">灾害</a>
+  <ul>
+  <li><a href="#r.-滑坡泥石流" id="toc-r.-滑坡泥石流" class="nav-link" data-scroll-target="#r.-滑坡泥石流">R. 滑坡、泥石流</a></li>
+  <li><a href="#c.-涝灾" id="toc-c.-涝灾" class="nav-link" data-scroll-target="#c.-涝灾">C. 涝灾</a></li>
+  <li><a href="#c.-风暴潮" id="toc-c.-风暴潮" class="nav-link" data-scroll-target="#c.-风暴潮">C. 风暴潮</a></li>
+  </ul></li>
+  <li><a href="#算理" id="toc-算理" class="nav-link" data-scroll-target="#算理">算理</a>
+  <ul>
+  <li><a href="#h.-判断北半球夏冬" id="toc-h.-判断北半球夏冬" class="nav-link" data-scroll-target="#h.-判断北半球夏冬">H. 判断北半球夏冬</a></li>
+  <li><a href="#h.-判断东西南北" id="toc-h.-判断东西南北" class="nav-link" data-scroll-target="#h.-判断东西南北">H. 判断东西南北</a></li>
+  <li><a href="#h.-相对高度计算" id="toc-h.-相对高度计算" class="nav-link" data-scroll-target="#h.-相对高度计算">H. 相对高度计算</a></li>
+  <li><a href="#h.-极昼地区" id="toc-h.-极昼地区" class="nav-link" data-scroll-target="#h.-极昼地区">H. 极昼地区</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<nav id="TOC-body" role="doc-toc">
+    <h2 id="toc-title">目录</h2>
+   
+  <ul>
+  <li><a href="#地" id="toc-地">地</a>
+  <ul>
+  <li><a href="#h.-地形描述" id="toc-h.-地形描述">H. 地形描述</a></li>
+  <li><a href="#h.-景观特征" id="toc-h.-景观特征">H. 景观特征</a></li>
+  <li><a href="#i.-地形---气候环境" id="toc-i.-地形---气候环境">I.&nbsp;地形 - 气候环境</a></li>
+  <li><a href="#i.-地形---降水" id="toc-i.-地形---降水">I.&nbsp;地形 - 降水</a></li>
+  <li><a href="#i.-地形---河流" id="toc-i.-地形---河流">I.&nbsp;地形 - 河流</a></li>
+  <li><a href="#i.-地形---农业" id="toc-i.-地形---农业">I.&nbsp;地形 - 农业</a></li>
+  <li><a href="#f.-河谷" id="toc-f.-河谷">F. 河谷</a></li>
+  <li><a href="#f.-冲击扇" id="toc-f.-冲击扇">F. 冲击扇</a></li>
+  <li><a href="#q.-海岸类型" id="toc-q.-海岸类型">Q. 海岸类型</a></li>
+  <li><a href="#r.-海岸线曲折" id="toc-r.-海岸线曲折">R. 海岸线曲折</a></li>
+  <li><a href="#c.-河口三角洲" id="toc-c.-河口三角洲">C. 河口三角洲</a></li>
+  <li><a href="#q.-岛屿种类" id="toc-q.-岛屿种类">Q. 岛屿种类</a></li>
+  <li><a href="#c.-河谷描述" id="toc-c.-河谷描述">C. 河谷描述</a></li>
+  <li><a href="#c.-土壤发育" id="toc-c.-土壤发育">C. 土壤发育</a></li>
+  <li><a href="#c.-土壤有机质" id="toc-c.-土壤有机质">C. 土壤有机质</a></li>
+  <li><a href="#i.-土壤---农业" id="toc-i.-土壤---农业">I. 土壤 - 农业</a></li>
+  <li><a href="#c.-风化作用" id="toc-c.-风化作用">C. 风化作用</a></li>
+  </ul></li>
+  <li><a href="#水" id="toc-水">水</a>
+  <ul>
+  <li><a href="#c.-降水" id="toc-c.-降水">C. 降水</a></li>
+  <li><a href="#f.-水文" id="toc-f.-水文">F. 水文</a></li>
+  <li><a href="#f.-水系" id="toc-f.-水系">F. 水系</a></li>
+  <li><a href="#f.-湖泊水文" id="toc-f.-湖泊水文">F. 湖泊水文</a></li>
+  <li><a href="#q.-湖泊类型" id="toc-q.-湖泊类型">Q. 湖泊类型</a></li>
+  <li><a href="#c.-潮汐" id="toc-c.-潮汐">C. 潮汐</a></li>
+  <li><a href="#c.-结冰" id="toc-c.-结冰">C. 结冰</a></li>
+  <li><a href="#c.-盐度" id="toc-c.-盐度">C. 盐度</a></li>
+  <li><a href="#r.-湿地减少" id="toc-r.-湿地减少">R. 湿地减少</a></li>
+  <li><a href="#r.-咸潮冬季" id="toc-r.-咸潮冬季">R. 咸潮（冬季）</a></li>
+  <li><a href="#c.-含沙量" id="toc-c.-含沙量">C. 含沙量</a></li>
+  </ul></li>
+  <li><a href="#气" id="toc-气">气</a>
+  <ul>
+  <li><a href="#c.-气候" id="toc-c.-气候">C. 气候</a></li>
+  <li><a href="#f.-气候" id="toc-f.-气候">F. 气候</a></li>
+  <li><a href="#q.-热量" id="toc-q.-热量">Q. 热量</a></li>
+  <li><a href="#c.-太阳辐射" id="toc-c.-太阳辐射">C. 太阳辐射</a></li>
+  <li><a href="#c.-蒸发" id="toc-c.-蒸发">C. 蒸发</a></li>
+  <li><a href="#c.-风大" id="toc-c.-风大">C. 风大</a></li>
+  <li><a href="#f.-焚风效应" id="toc-f.-焚风效应">F. 焚风效应</a></li>
+  <li><a href="#q.-雨的种类" id="toc-q.-雨的种类">Q. 雨的种类</a></li>
+  <li><a href="#q.-雾的种类" id="toc-q.-雾的种类">Q. 雾的种类</a></li>
+  <li><a href="#c.-雾" id="toc-c.-雾">C. 雾</a></li>
+  <li><a href="#c.-霾" id="toc-c.-霾">C. 霾</a>
+  <ul>
+  <li><a href="#r.-冬季多" id="toc-r.-冬季多">R. 冬季多</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#生物" id="toc-生物">生物</a>
+  <ul>
+  <li><a href="#c.-生物生存" id="toc-c.-生物生存">C. 生物生存</a></li>
+  <li><a href="#c.-生物多样性好" id="toc-c.-生物多样性好">C. 生物多样性好</a></li>
+  <li><a href="#c.-生态脆弱" id="toc-c.-生态脆弱">C. 生态脆弱</a></li>
+  <li><a href="#c.-农作物品质好" id="toc-c.-农作物品质好">C. 农作物品质好</a></li>
+  <li><a href="#q.-不同地区森林作用" id="toc-q.-不同地区森林作用">Q. 不同地区森林作用</a></li>
+  </ul></li>
+  <li><a href="#灾害" id="toc-灾害">灾害</a>
+  <ul>
+  <li><a href="#r.-滑坡泥石流" id="toc-r.-滑坡泥石流">R. 滑坡、泥石流</a></li>
+  <li><a href="#c.-涝灾" id="toc-c.-涝灾">C. 涝灾</a></li>
+  <li><a href="#c.-风暴潮" id="toc-c.-风暴潮">C. 风暴潮</a></li>
+  </ul></li>
+  <li><a href="#算理" id="toc-算理">算理</a>
+  <ul>
+  <li><a href="#h.-判断北半球夏冬" id="toc-h.-判断北半球夏冬">H. 判断北半球夏冬</a></li>
+  <li><a href="#h.-判断东西南北" id="toc-h.-判断东西南北">H. 判断东西南北</a></li>
+  <li><a href="#h.-相对高度计算" id="toc-h.-相对高度计算">H. 相对高度计算</a></li>
+  <li><a href="#h.-极昼地区" id="toc-h.-极昼地区">H. 极昼地区</a></li>
+  </ul></li>
+  </ul>
+</nav>
+<section id="地" class="level1">
+<h1>地</h1>
+<section id="h.-地形描述" class="level2">
+<h2 class="anchored" data-anchor-id="h.-地形描述">H. 地形描述</h2>
+<ol type="1">
+<li>地形类型：以…为主，主要分部…</li>
+<li>地势高低分布：由…向…倾斜，哪高哪低</li>
+<li>地势起伏状况（大/小）</li>
+<li>特殊地貌：喀斯特、丹霞、雅丹</li>
+<li>海岸线：平直/曲折/漫长</li>
+</ol>
+</section>
+<section id="h.-景观特征" class="level2">
+<h2 class="anchored" data-anchor-id="h.-景观特征">H. 景观特征</h2>
+<p>1- 颜色；2- 结构（层理~）；3- 形状；4- 种类；5- 走向（雅丹~）</p>
+</section>
+<section id="i.-地形---气候环境" class="level2">
+<h2 class="anchored" data-anchor-id="i.-地形---气候环境">I.&nbsp;地形 - 气候环境</h2>
+<ol type="1">
+<li>海拔高，气温低</li>
+<li>盆地地形，地形闭塞，热量不宜扩散</li>
+<li>高纬度有高大山脉，阻挡冷空气</li>
+<li>背风坡，焚风效应</li>
+<li>狭管效应</li>
+<li>山风谷风</li>
+<li>海岸线曲折，水汽深入</li>
+<li>下垫面性质</li>
+</ol>
+</section>
+<section id="i.-地形---降水" class="level2">
+<h2 class="anchored" data-anchor-id="i.-地形---降水">I.&nbsp;地形 - 降水</h2>
+<p>1.&nbsp;随海拔升高，降水先增后减 2.&nbsp;迎风坡降水多，背风坡降水少 3.&nbsp;山地，高原阻挡水汽深入 4.&nbsp;海岸线曲折，地形平坦，利于风深入</p>
+</section>
+<section id="i.-地形---河流" class="level2">
+<h2 class="anchored" data-anchor-id="i.-地形---河流">I.&nbsp;地形 - 河流</h2>
+<p>1.&nbsp;流向 2.&nbsp;流速 3.&nbsp;流量 4.&nbsp;流域面积 5.&nbsp;水系形态 6.&nbsp;水能资源 7.&nbsp;河道弯曲</p>
+</section>
+<section id="i.-地形---农业" class="level2">
+<h2 class="anchored" data-anchor-id="i.-地形---农业">I.&nbsp;地形 - 农业</h2>
+<ul>
+<li><strong>优点</strong>
+<ol type="1">
+<li>地形多样，利于因地制宜发展农业，类型多样</li>
+<li>资源丰富（生物，森林，矿产）</li>
+</ol></li>
+<li><strong>缺点</strong>
+<ol type="1">
+<li>耕地面积小，不利于保障粮食安全</li>
+<li>地势起伏大，不利粮食种植</li>
+<li>交通闭塞</li>
+<li>多发滑坡，泥石流等自然灾害</li>
+</ol></li>
+</ul>
+</section>
+<section id="f.-河谷" class="level2">
+<h2 class="anchored" data-anchor-id="f.-河谷">F. 河谷</h2>
+<p>1- 形态；2- 深浅；3- 崖壁； 4- 底部；5- 河道；6- 走向；7- 岩石质地</p>
+</section>
+<section id="f.-冲击扇" class="level2">
+<h2 class="anchored" data-anchor-id="f.-冲击扇">F. 冲击扇</h2>
+<ol type="1">
+<li>呈扇形</li>
+<li>中间高，两侧低</li>
+<li>有一定地势起伏</li>
+<li>扇柄到扇缘，颗粒物减小</li>
+</ol>
+</section>
+<section id="q.-海岸类型" class="level2">
+<h2 class="anchored" data-anchor-id="q.-海岸类型">Q. 海岸类型</h2>
+<ol type="1">
+<li>基岩（港口）</li>
+<li>淤泥（质养殖）</li>
+<li>砂质（旅游）</li>
+<li>生物（珊瑚，红树林）</li>
+</ol>
+</section>
+<section id="r.-海岸线曲折" class="level2">
+<h2 class="anchored" data-anchor-id="r.-海岸线曲折">R. 海岸线曲折</h2>
+<ol type="1">
+<li>低纬度，海浪侵蚀</li>
+<li>高纬度，冰川侵蚀</li>
+<li>板块交界处，岩石破碎</li>
+<li>迎风坡地形雨，流水侵蚀</li>
+</ol>
+</section>
+<section id="c.-河口三角洲" class="level2">
+<h2 class="anchored" data-anchor-id="c.-河口三角洲">C. 河口三角洲</h2>
+<ol type="1">
+<li>含沙量
+<ol type="1">
+<li><em>植被</em></li>
+<li>土质</li>
+<li>河床岩性</li>
+<li>降水强度/时间</li>
+</ol></li>
+<li>携沙（流速、流量）</li>
+<li>沉降（河口沉降、海水顶托）</li>
+</ol>
+</section>
+<section id="q.-岛屿种类" class="level2">
+<h2 class="anchored" data-anchor-id="q.-岛屿种类">Q. 岛屿种类</h2>
+<ol type="1">
+<li>火山岛（夏威夷）</li>
+<li>大陆岛（台湾岛，塔斯马尼亚岛）</li>
+<li>珊瑚岛（大堡焦）</li>
+<li>冲积岛（崇明岛）</li>
+<li>人工岛</li>
+</ol>
+</section>
+<section id="c.-河谷描述" class="level2">
+<h2 class="anchored" data-anchor-id="c.-河谷描述">C. 河谷描述</h2>
+<ol type="1">
+<li>形态，深浅，崖壁，底部</li>
+<li>河道，走向，岩石质地</li>
+</ol>
+</section>
+<section id="c.-土壤发育" class="level2">
+<h2 class="anchored" data-anchor-id="c.-土壤发育">C. 土壤发育</h2>
+<ol type="1">
+<li><em>生物</em>（微生物，枯枝落叶）</li>
+<li>成土母质（物质来源，质地，矿物质）</li>
+<li>气候（热量 -&gt; 微生物、降水 -&gt; 淋溶，风力）</li>
+<li>地形（海拔高，肥力低；低洼）</li>
+<li>人类活动</li>
+<li>时间</li>
+</ol>
+</section>
+<section id="c.-土壤有机质" class="level2">
+<h2 class="anchored" data-anchor-id="c.-土壤有机质">C. 土壤有机质</h2>
+<ol type="1">
+<li>温度（分解），枯枝落叶</li>
+<li>淋溶作用，植物吸收</li>
+</ol>
+</section>
+<section id="i.-土壤---农业" class="level2">
+<h2 class="anchored" data-anchor-id="i.-土壤---农业">I. 土壤 - 农业</h2>
+<ol type="1">
+<li>质地</li>
+<li>水，空气，有机质，矿物质，</li>
+<li>厚度，剖面</li>
+<li>pH值</li>
+</ol>
+</section>
+<section id="c.-风化作用" class="level2">
+<h2 class="anchored" data-anchor-id="c.-风化作用">C. 风化作用</h2>
+<ol type="1">
+<li>物理风化（干）</li>
+<li>化学风化（湿） { 丹霞地貌 }</li>
+<li>生物风化（湿热：根劈作用、化学作用）</li>
+<li>冻融风化（温度、冻土）{ 高纬度高海拔地区 }</li>
+<li>盐风化（沿海、背风坡）</li>
+</ol>
+</section>
+</section>
+<section id="水" class="level1">
+<h1>水</h1>
+<section id="c.-降水" class="level2">
+<h2 class="anchored" data-anchor-id="c.-降水">C. 降水</h2>
+<ol type="1">
+<li>海陆位置</li>
+<li>地形
+<ol type="1">
+<li>海拔高，降水先增后减</li>
+<li>盆地地形，地形闭塞，多阴雨天</li>
+<li>高纬度有高大山脉，阻挡冷空气</li>
+<li>背风坡，焚风效应</li>
+<li>海岸线曲折，水汽深入</li>
+<li>下垫面性质</li>
+</ol></li>
+<li>洋流（暖流多，寒流少）</li>
+<li>下垫面性质</li>
+<li>大气环流
+<ol type="1">
+<li>气压带分布</li>
+<li>季风环流</li>
+</ol></li>
+</ol>
+</section>
+<section id="f.-水文" class="level2">
+<h2 class="anchored" data-anchor-id="f.-水文">F. 水文</h2>
+<ol type="1">
+<li>径流量大小
+<ol type="1">
+<li>补给类型</li>
+<li>季节/年季变化</li>
+<li>流域面积</li>
+</ol></li>
+<li>汛期
+<ol type="1">
+<li>时间（长短）</li>
+<li>水位</li>
+<li>类型</li>
+</ol></li>
+<li>结冰期
+<ol type="1">
+<li>凌汛</li>
+</ol></li>
+<li>含沙量
+<ol type="1">
+<li><strong>自然</strong>
+<ol type="1">
+<li><em>植被</em></li>
+<li>土质</li>
+<li>流速</li>
+<li>流域面积</li>
+<li>河床岩性</li>
+<li>是否流经湿地</li>
+<li>降水强度/时间</li>
+</ol></li>
+<li><strong>社会</strong>
+<ol type="1">
+<li>流经水库</li>
+<li>人工清淤</li>
+</ol></li>
+</ol></li>
+<li>流速
+<ol type="1">
+<li>水能资源</li>
+</ol></li>
+</ol>
+</section>
+<section id="f.-水系" class="level2">
+<h2 class="anchored" data-anchor-id="f.-水系">F. 水系</h2>
+<ol type="1">
+<li>发源地，目的地</li>
+<li>流向</li>
+<li>流程</li>
+<li>流域面积（支流）</li>
+<li>水系形态
+<ol type="1">
+<li>放射状/向心状/树枝状/扇状/梳状</li>
+<li>辫状（含沙量大，地形平坦，季节变化大）</li>
+</ol></li>
+<li>弯曲程度/深浅</li>
+<li>落差</li>
+</ol>
+</section>
+<section id="f.-湖泊水文" class="level2">
+<h2 class="anchored" data-anchor-id="f.-湖泊水文">F. 湖泊水文</h2>
+<ol type="1">
+<li>补给类型（河流补给、降水补给…）</li>
+<li>径流量大小（淡水湖大，咸水湖小）</li>
+<li>水位（时间，季节变化）</li>
+<li>结冰期（纬度）</li>
+<li>含沙量（季节变化）</li>
+<li>盐度</li>
+</ol>
+</section>
+<section id="q.-湖泊类型" class="level2">
+<h2 class="anchored" data-anchor-id="q.-湖泊类型">Q. 湖泊类型</h2>
+<ol type="1">
+<li><strong>构造湖</strong>：地壳断裂下陷，积水成湖（水深、崖陡、狭长） { 贝加尔湖、维多利亚湖、坦噶尼喀湖、马拉维湖、死海、鄱阳湖、洞庭湖、青海湖 }</li>
+<li><strong>海迹湖</strong>：（海成湖）地壳运动，地面抬升，湖泊从海洋分离 { 里海、黑海、潟湖（西湖） }</li>
+<li><strong>牛轭湖</strong>：（河成湖）河流的变迁，曲形河道截弯取直后留下的旧河道形成的湖泊 { 乌梁素海 }</li>
+<li><strong>堰塞湖</strong>：地震/滑坡/泥石流等导致河道淤塞，上游为堰塞湖 { 五大连池 }</li>
+<li><strong>冰川湖</strong>：
+<ol type="1">
+<li><strong>冰蚀湖</strong>：冰川侵蚀，积水成湖 { 北美五大湖 }</li>
+<li><strong>冰碛湖</strong>：冰川下滑于低地，形成坑洞堆积，冰川融化成湖 { 日内瓦湖 }</li>
+</ol></li>
+<li><strong>火山湖</strong>：岩浆活动形成火山锥，受重力崩塌下馅 { 天池（水深、崖陡） }</li>
+<li><strong>风成湖</strong>：风力侵蚀形成风蚀洼地，积水成湖 { 月牙泉 }</li>
+<li><strong>岩溶湖</strong>：（喀斯特湖）</li>
+<li><strong>尾闾湖</strong>：河流终点的湖 { 青海湖 }</li>
+</ol>
+</section>
+<section id="c.-潮汐" class="level2">
+<h2 class="anchored" data-anchor-id="c.-潮汐">C. 潮汐</h2>
+<ol type="1">
+<li>天文大潮</li>
+<li>风暴潮，台风</li>
+<li>海域形态（喇叭口）</li>
+<li>顶托作用（径流量，风助潮涌）</li>
+</ol>
+</section>
+<section id="c.-结冰" class="level2">
+<h2 class="anchored" data-anchor-id="c.-结冰">C. 结冰</h2>
+<ol type="1">
+<li>温度 &gt; { 纬度、海陆、地形、洋流 }</li>
+<li>盐度</li>
+<li>面积</li>
+<li>水深</li>
+<li>流速</li>
+<li>地热能</li>
+</ol>
+</section>
+<section id="c.-盐度" class="level2">
+<h2 class="anchored" data-anchor-id="c.-盐度">C. 盐度</h2>
+<ol type="1">
+<li>蒸发</li>
+<li>降水 <a href="#c-降水">To: C. 降水</a></li>
+<li>洋流（暖升冷降）</li>
+<li>入海径流</li>
+<li>海域封闭程度</li>
+</ol>
+</section>
+<section id="r.-湿地减少" class="level2">
+<h2 class="anchored" data-anchor-id="r.-湿地减少">R. 湿地减少</h2>
+<ol type="1">
+<li><strong>自然</strong>
+<ol type="1">
+<li>全球气候干旱，蒸发旺盛</li>
+<li>**气候，蒸发旺盛</li>
+</ol></li>
+<li><strong>社会</strong>
+<ol type="1">
+<li>围湖造田，破坏植被</li>
+<li>上游过度引水灌溉</li>
+<li>上游泥沙淤积</li>
+<li>上游修水库</li>
+<li>磷氮化合物过多</li>
+</ol></li>
+</ol>
+</section>
+<section id="r.-咸潮冬季" class="level2">
+<h2 class="anchored" data-anchor-id="r.-咸潮冬季">R. 咸潮（冬季）</h2>
+<ol type="1">
+<li>亚热带季风气候，冬季降水少，径流量少，水位低，易海水倒灌</li>
+<li>全球气候变暖，海平面上升，海水倒灌</li>
+<li>沿岸地形平坦，易海水倒灌</li>
+<li>沿岸不合理采沙</li>
+<li>过度抽取地下水 ### 「H」</li>
+<li>以淡压咸</li>
+<li>加强监测预报</li>
+<li>节流措施</li>
+</ol>
+</section>
+<section id="c.-含沙量" class="level2">
+<h2 class="anchored" data-anchor-id="c.-含沙量">C. 含沙量</h2>
+<ol type="1">
+<li><strong>自然</strong>
+<ol type="1">
+<li><em>植被</em></li>
+<li>土质</li>
+<li>流速</li>
+<li>流域面积</li>
+<li>湿地否</li>
+<li>河床岩性</li>
+<li>降水强度/时间</li>
+</ol></li>
+<li><strong>社会</strong>
+<ol type="1">
+<li>流经水库</li>
+<li>人工清淤</li>
+</ol></li>
+</ol>
+</section>
+</section>
+<section id="气" class="level1">
+<h1>气</h1>
+<section id="c.-气候" class="level2">
+<h2 class="anchored" data-anchor-id="c.-气候">C. 气候</h2>
+<p><a href="#q-热量">To: Q. 热量</a> 1. 大气环流 1. 气压带分布 2. 季风环流</p>
+</section>
+<section id="f.-气候" class="level2">
+<h2 class="anchored" data-anchor-id="f.-气候">F. 气候</h2>
+<ol type="1">
+<li>气温
+<ol type="1">
+<li>均温</li>
+<li>日/年/季变化</li>
+<li>递变规律</li>
+</ol></li>
+<li>降水
+<ol type="1">
+<li>年降水量</li>
+<li>日/年/季变化</li>
+<li>递变规律</li>
+</ol></li>
+<li>光照（强度、时数）</li>
+<li>水热组合</li>
+<li>昼夜温差</li>
+<li>自然灾害</li>
+</ol>
+</section>
+<section id="q.-热量" class="level2">
+<h2 class="anchored" data-anchor-id="q.-热量">Q. 热量</h2>
+<ol type="1">
+<li>纬度
+<ol type="1">
+<li>太阳高度</li>
+<li>日照（白昼）时长</li>
+<li>离冬季风源地远</li>
+</ol></li>
+<li>海陆位置</li>
+<li>地形 <a href="#i地形---气候环境">To: I. 地形 - 气候环境</a></li>
+<li>洋流</li>
+<li>下垫面性质</li>
+</ol>
+</section>
+<section id="c.-太阳辐射" class="level2">
+<h2 class="anchored" data-anchor-id="c.-太阳辐射">C. 太阳辐射</h2>
+<p>纬度，海拔，天气，白昼，大气洁净度</p>
+</section>
+<section id="c.-蒸发" class="level2">
+<h2 class="anchored" data-anchor-id="c.-蒸发">C. 蒸发</h2>
+<p>温度，湿度，风力，光照，面积</p>
+</section>
+<section id="c.-风大" class="level2">
+<h2 class="anchored" data-anchor-id="c.-风大">C. 风大</h2>
+<ol type="1">
+<li>水平气压梯度力
+<ol type="1">
+<li>气压差</li>
+<li>南北温差(太阳辐射)</li>
+</ol></li>
+<li>离风源地远近</li>
+<li>摩擦力
+<ol type="1">
+<li>地表粗糙程度</li>
+<li>地势起伏</li>
+<li>海拔</li>
+</ol></li>
+<li>风力叠加
+<ol type="1">
+<li>季风影响</li>
+<li>山/谷风</li>
+<li>湖/海陆风</li>
+</ol></li>
+<li>狭管效应</li>
+<li>逆温现象</li>
+</ol>
+</section>
+<section id="f.-焚风效应" class="level2">
+<h2 class="anchored" data-anchor-id="f.-焚风效应">F. 焚风效应</h2>
+<ul>
+<li><strong>优点</strong>
+<ol type="1">
+<li>促进农作物早熟</li>
+<li>在积雪地提供灌溉水源</li>
+<li>草木生长，畜牧业发展</li>
+</ol></li>
+<li><strong>缺点</strong>
+<ol type="1">
+<li>产生火灾，农作物减产</li>
+<li>带来洪涝（积雪融水）</li>
+<li>在干旱区形成沙尘暴</li>
+<li>交通等基础设施受影响</li>
+</ol></li>
+</ul>
+</section>
+<section id="q.-雨的种类" class="level2">
+<h2 class="anchored" data-anchor-id="q.-雨的种类">Q. 雨的种类</h2>
+<ol type="1">
+<li>对流雨</li>
+<li>地形雨</li>
+<li>锋面雨</li>
+<li>台风雨</li>
+</ol>
+</section>
+<section id="q.-雾的种类" class="level2">
+<h2 class="anchored" data-anchor-id="q.-雾的种类">Q. 雾的种类</h2>
+<ol type="1">
+<li>平流雾（低纬寒流）</li>
+<li>蒸汽雾（高纬暖流、大湖效应）</li>
+<li>辐射雾（冬季、日出、晴天，山谷盆地）</li>
+<li>上坡雾（缓坡，逆温）</li>
+<li>锋面雾（暖、准静止锋）</li>
+</ol>
+</section>
+<section id="c.-雾" class="level2">
+<h2 class="anchored" data-anchor-id="c.-雾">C. 雾</h2>
+<p>充足的水汽，冷却(洋流)，凝结核，逆温，微风</p>
+</section>
+<section id="c.-霾" class="level2">
+<h2 class="anchored" data-anchor-id="c.-霾">C. 霾</h2>
+<ol type="1">
+<li>西北地区沙尘</li>
+<li>建筑扬尘</li>
+<li>汽车尾气</li>
+<li>冬季集中供暖</li>
+<li>工业煤炭燃烧</li>
+</ol>
+<section id="r.-冬季多" class="level3">
+<h3 class="anchored" data-anchor-id="r.-冬季多">R. 冬季多</h3>
+<ol type="1">
+<li>来源多(沙尘，供暖)</li>
+<li>植被稀少，制尘能力弱</li>
+<li>冬季降水少</li>
+<li>近地面温度低对流弱，污染不易扩散</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="生物" class="level1">
+<h1>生物</h1>
+<section id="c.-生物生存" class="level2">
+<h2 class="anchored" data-anchor-id="c.-生物生存">C. 生物生存</h2>
+<ol type="1">
+<li>食物充足</li>
+<li>环境适宜</li>
+<li>栖息地（生存空间大）</li>
+<li>安全（人少无，天敌）</li>
+</ol>
+</section>
+<section id="c.-生物多样性好" class="level2">
+<h2 class="anchored" data-anchor-id="c.-生物多样性好">C. 生物多样性好</h2>
+<ul>
+<li><strong>自然</strong>
+<ol type="1">
+<li>纬度低，水热组合好</li>
+<li>地质条件复杂，地形多样</li>
+<li>垂直高差大</li>
+<li>跨经度，纬度广</li>
+<li>形成早，进化悠久</li>
+</ol></li>
+<li><strong>社会</strong>
+<ol type="1">
+<li>人类活动少</li>
+<li>引进外来物种</li>
+<li>建立自然保护区</li>
+</ol></li>
+</ul>
+</section>
+<section id="c.-生态脆弱" class="level2">
+<h2 class="anchored" data-anchor-id="c.-生态脆弱">C. 生态脆弱</h2>
+<ol type="1">
+<li>气候</li>
+<li>地形</li>
+<li>土壤
+<ol type="1">
+<li>热量</li>
+<li>降水（淋溶作用）</li>
+</ol></li>
+<li>水源</li>
+<li>植被</li>
+<li>环境</li>
+</ol>
+</section>
+<section id="c.-农作物品质好" class="level2">
+<h2 class="anchored" data-anchor-id="c.-农作物品质好">C. 农作物品质好</h2>
+<ol type="1">
+<li>雨热同期，水热组合好</li>
+<li>光照充足，昼夜温差大</li>
+<li>土壤肥力高，有机质含量高</li>
+<li>（纬度高，气温低）生长周期长</li>
+<li>（纬度高，气温低）病虫害少</li>
+<li>发展科技，培育优良品种</li>
+<li>种植历史悠久，精耕细作</li>
+<li>发展绿色农业，生态农业</li>
+</ol>
+</section>
+<section id="q.-不同地区森林作用" class="level2">
+<h2 class="anchored" data-anchor-id="q.-不同地区森林作用">Q. 不同地区森林作用</h2>
+<ul>
+<li><strong>江河</strong>：保持水土，涵养水源</li>
+<li><strong>沿海</strong>：抵御海浪，减少台风影响，保护生物多样性</li>
+<li><strong>城市</strong>：美化环境，吸烟除尘，净化空气</li>
+<li><strong>西北</strong>：防风固沙，保护农田</li>
+</ul>
+</section>
+</section>
+<section id="灾害" class="level1">
+<h1>灾害</h1>
+<section id="r.-滑坡泥石流" class="level2">
+<h2 class="anchored" data-anchor-id="r.-滑坡泥石流">R. 滑坡、泥石流</h2>
+<ol type="1">
+<li>水的参与
+<ol type="1">
+<li>降水</li>
+<li>冰雪融水</li>
+</ol></li>
+<li>质地疏松
+<ol type="1">
+<li><strong>自然</strong>
+<ol type="1">
+<li>暴雨</li>
+<li>地下水上涨</li>
+<li>地震</li>
+</ol></li>
+<li><strong>社会</strong>
+<ol type="1">
+<li>植被破坏</li>
+<li>建大型工程</li>
+</ol></li>
+</ol></li>
+<li>地势
+<ol type="1">
+<li>起伏大</li>
+<li>勾谷（泥石流）</li>
+</ol></li>
+</ol>
+</section>
+<section id="c.-涝灾" class="level2">
+<h2 class="anchored" data-anchor-id="c.-涝灾">C. 涝灾</h2>
+<ol type="1">
+<li>有水
+<ol type="1">
+<li>补给类型</li>
+<li>河网密度，支流多</li>
+<li>流域面积，汇水快</li>
+</ol></li>
+<li>排不出
+<ol type="1">
+<li>蒸发弱</li>
+<li>下渗少</li>
+<li>地形闭塞</li>
+<li>河道弯曲 —— 裁弯取直</li>
+<li>有凌汛 —— 加固堤坝</li>
+<li>入海口顶托</li>
+</ol></li>
+<li>容不了水
+<ol type="1">
+<li>湿地少</li>
+<li>上游植被减少，导致下游河床抬升，泄洪能力减弱 —— 恢复地表植被，修建水库</li>
+</ol></li>
+<li>人为因素
+<ol type="1">
+<li>上游植被破坏 —— 恢复地表植被</li>
+<li>中下游围湖造田，湿地减少 —— 退耕还湖、湿</li>
+</ol></li>
+</ol>
+</section>
+<section id="c.-风暴潮" class="level2">
+<h2 class="anchored" data-anchor-id="c.-风暴潮">C. 风暴潮</h2>
+<ol type="1">
+<li>风大</li>
+<li>地形平坦<span class="math inline">\(f\)</span>小</li>
+<li>海区形态</li>
+<li>河流顶托</li>
+<li>天文大潮</li>
+</ol>
+</section>
+</section>
+<section id="算理" class="level1">
+<h1>算理</h1>
+<section id="h.-判断北半球夏冬" class="level2">
+<h2 class="anchored" data-anchor-id="h.-判断北半球夏冬">H. 判断北半球夏冬</h2>
+<ol type="1">
+<li>纬度</li>
+<li>俯视图
+<ol type="1">
+<li>北洋南陆</li>
+<li>南顺北逆</li>
+<li>晨昏线</li>
+</ol></li>
+<li>北极星仰角=晷针仰角=当地纬度</li>
+<li>大陆轮廓</li>
+<li>自转线速度</li>
+<li>地转偏向力</li>
+<li>气压带风带</li>
+<li>等温线</li>
+<li>房屋热水器</li>
+<li>年轮朝向</li>
+</ol>
+</section>
+<section id="h.-判断东西南北" class="level2">
+<h2 class="anchored" data-anchor-id="h.-判断东西南北">H. 判断东西南北</h2>
+<ol type="1">
+<li>同东经度，经度越大越东；同西经度，经度越大越西</li>
+<li>一东一西看劣弧段</li>
+</ol>
+</section>
+<section id="h.-相对高度计算" class="level2">
+<h2 class="anchored" data-anchor-id="h.-相对高度计算">H. 相对高度计算</h2>
+<ol type="1">
+<li>同在等高线上：高 - 低</li>
+<li>同不在等高线上：交叉相减 ( n - 1 ) d &lt; H<sub>max</sub> &lt; ( n + 1 ) d</li>
+<li>陡崖 H<sub>大</sub> ≤ H<sub>max</sub> &lt; H<sub>大</sub>+d H<sub>小</sub>+d &lt; H<sub>min</sub> ≤ H<sub>小</sub> ( n - 1 ) d ≤ ΔH ≤ ( n + 1 ) d</li>
+</ol>
+</section>
+<section id="h.-极昼地区" class="level2">
+<h2 class="anchored" data-anchor-id="h.-极昼地区">H. 极昼地区</h2>
+<ol type="1">
+<li><p>出现极昼的极点，一天中太阳高度不变，且其太阳高度 = 直射点纬度</p></li>
+<li><p>设 ⊥= x，纬度 = y ∠<sub>max</sub> = 90 - ( y - x ) ∠<sub>min</sub> = y - ( 90 - x ) ∠<sub>max</sub> + ∠<sub>min</sub> = 2x # 散点</p></li>
+<li><p><strong>枯枝落叶层厚度</strong>：草地＞森林＞荒漠</p></li>
+<li><p><strong>淋溶层厚度</strong>：湿润地区＞干旱地区</p></li>
+<li><p><strong>石灰岩</strong>：浅海，<strong>页岩</strong>：近水，<strong>砂岩</strong>：海滩</p></li>
+</ol>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © 2022 - 2024
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../../../about.html">
+<p>Sanlimi</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ power by ❤️
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://quarto.org">
+<p>Quarto</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
