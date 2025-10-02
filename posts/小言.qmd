@@ -1,0 +1,28 @@
+---
+title: 小言
+author: Sanlimi
+date: 3024-08-28 22:04
+lang: zh
+categories:
+  - 随笔
+description: 欢迎来到米米的博客 ~
+image: ../imgs/302408282204.webp
+---
+
+# Sanlimi ?
+
+这个名字是高中同学起的。当时我比较喜欢用迷你修正带，前桌看见了就量了一下长度，大概是三厘米。于是打趣到，你**是不是也是三厘米（当然不是），，，从此这个绰号就传开了。后来我嫌名字不文雅，故改为三狸米，英文取自拼音 —— Sanlimi.
+
+# 建站历史
+
+## 过去
+
+二二年五月，高一的我在网课期间注册了 Github，并在[w3school](https://www.w3school.com.cn)上自学了 HTML 和 CSS，随后我用 [Gridea](https://github.com/getgridea/gridea) 在 Github 上托管了初代博客 [pw2](https://wzyskq.github.io/pw2)（Person Website 2，pw1 是早期测试网站，已删库）
+
+暑假期间，我手写了自己的第一个 [“小网站”](https://wzyskq.github.io/old) ，比较简陋，没怎么注重优化加载，不过当它发布时还是挺有成就感的。
+
+## 当下
+
+今年刚高考完，趁着假期，我花了亿点点时间成功在八月中旬重写完辽 [我的小窝](https://wzyskq.github.io/zh/index.html) ( •̀ ω •́ )✧ ~~( 原定七月底 )~~，嗯嗯，新窝有感觉了❤️
+
+在整理笔记本文件夹的过程中，我突然发现了之前准备用来用 [reveal.js](https://github.com/hakimel/reveal.js) 将 markdown 转为网页幻灯片的“出版系统” [Qurato](https://quarto.org)，然后又花了点时间去跟着 document 学习写 Quarto 中的 yaml ~~( 其实真不如直接看 Quarto 官网的[源码](https://github.com/quarto-dev/quarto-web)…… )~~，最后最后，这篇全新的 Blog 就此诞生辣 💥 ~ 

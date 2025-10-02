@@ -1,0 +1,16 @@
+/* css styles */
+*
+{
+    user-select: none;
+
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+}
+
+body
+{
+    transition: all .3s ease;
+}
+
+$body-bg: lightblue;

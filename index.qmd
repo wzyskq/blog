@@ -1,0 +1,17 @@
+---
+title: "Archive"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  date-format: YYYY / M / D ddd H:mm
+  image-lazy-loading: true
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  page-size: 9
+page-layout: full
+title-block-banner: false
+lang: zh
+---
+

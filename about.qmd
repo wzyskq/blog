@@ -1,0 +1,34 @@
+---
+title: "About"
+image: https://wzyskq.github.io/web/bin/profile_girl.pro.jpg
+about:
+  template: jolla
+  links:
+
+    - icon: person-heart
+      text: Profile
+      href: https://wzyskq.github.io
+    - icon: github
+      text: Github
+      href: https://github.com/wzyskq
+      
+lang: zh
+---
+
+👋 Hi ~
+
+✨ 这里是 **三狸米** 呐
+
+💤 一名白日梦想家
+
+💘 低浓度二次元纯爱战士
+
+😵 短暂颓废、周期迷茫、长期摆烂
+
+💦 有许多多多多的不成熟的想法
+
+⛄ 热衷钻研发呆
+
+🎫（￣︶￣）↗
+
+🎉 请多指教!
