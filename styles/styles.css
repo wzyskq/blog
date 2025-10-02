@@ -1,0 +1,13 @@
+/* css styles */
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+}
+
+body {
+  transition: all 0.3s ease;
+}/*# sourceMappingURL=styles.css.map */
